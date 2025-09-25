@@ -25,7 +25,7 @@
 
 `##################### remove invalid IV #############`  
 `fdata1j <- HDMR.PRESSO(fdata1,`  
-                       `Methodname='MCP',`  
+`                       Methodname='MCP',`  
 `                       cv.lambd)`  
 
 `fdata1j <- fdata1j$fdata2`  
