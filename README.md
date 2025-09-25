@@ -6,9 +6,7 @@
 ***Toy Example***  
 
 `library(MASS)`  
-`library(glmnet)`  
-`#> Loading required package: Matrix`  
-`#> Loaded glmnet 4.1-8`  
+`library(glmnet)`    
 `library(ncvreg)`  
 `library(TL.HDMR)`  
 
