@@ -1,4 +1,6 @@
-# TLHDMR: Transfer Learning for Mendelian Randomization with Pleiotropic and Correlated High-Dimensional Exposures and Its Application to Trans-ethnic Populations  
+# TLHDMR
+
+Transfer Learning for Mendelian Randomization with Pleiotropic and Correlated High-Dimensional Exposures and Its Application to Trans-ethnic Populations  
 
 ***Installation***  
 `devtools::install_github("hhoulei/TLHDMR")`  
