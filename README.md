@@ -1,4 +1,4 @@
-# TLHDMR
+# TLHDMR: Transfer Learning for Mendelian Randomization with Pleiotropic and Correlated High-Dimensional Exposures and Its Application to Trans-ethnic Populations  
 
 ***Installation***  
 `devtools::install_github("hhoulei/TLHDMR")`  
@@ -77,7 +77,7 @@
 `cisMVMR.Trans.MCP.presso`  
 
 ***Citation***:  
-Transfer Learning for Mendelian Randomization with Pleiotropic and Correlated High-Dimensional Exposures and Its Application to Trans-ethnic Populations
+Transfer Learning for Mendelian Randomization with Pleiotropic and Correlated High-Dimensional Exposures and Its Application to Trans-ethnic Populations  
 Lei Hou, Xiaohua Zhou, Fuzhong Xue, Hao Chen
 
 Please contact houlei@bicmr.pku.edu.cn for any questions. We will continue to update this R package and reduce the problems that may be encountered during its installation.
