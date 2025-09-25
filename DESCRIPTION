@@ -1,0 +1,25 @@
+Package: TL.HDMR
+Type: Package
+Title: Transfer learning for High-Dimensional Mendelian Randomization
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Lei Hou", "Hao Chen",
+      email = "houlei@bicmr.pku.edu.cn",
+      role = c("aut", "cre")
+    )
+  )
+Description: The transfer learning framework for high-dimensional Mendelian randomization (MR), built upon GWAS summary data, incorporates algorithms for selecting informative source datasets and removing invalid instrumental variables.
+License: 1.1.0
+Encoding: UTF-8
+Imports: MASS, glmnet, ncvreg
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
+VignetteBuilder: knitr

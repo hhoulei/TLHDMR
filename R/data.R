@@ -1,0 +1,23 @@
+#' fdata
+#'
+#' Target dataset
+#'
+#' @format A list object：
+#' \describe{
+#'   \item{Bx_obs}{data.frame,G-X association coefficient (\eqn{\hat{beta}_{p}})}
+#'   \item{By_obs}{double vector,G-Y association coefficient (\eqn{\hat{beta}_{Y}})}
+#'   \item{sx_obs}{data.frame,G-X association standard error (\eqn{\sigma_{p}})}
+#'   \item{sy_obs}{double vector,G-Y association standard error (\eqn{\sigma_{Y}})}
+#'   \item{Sigx_condi}{matrix,the covariance matrix of \eqn{\hat{beta}_{p}} (\eqn{\Sigma_{p}=R\sigma_{p}\sigma_{p}^{T}})}
+#'   \item{Sigy_condi}{matrix,the covariance matrix of \eqn{\hat{beta}_{Y}} (\eqn{\Sigma_{Y}=R\sigma_{Y}\sigma_{Y}^{T}})}
+#'   \item{LD_mat}{matrix,LD matrix of IVs (\eqn{R})}
+#'   \item{LD_inv}{matrix,inverse of LD matrix (\eqn{R^{-1}})}
+#' }
+"fdata"
+
+#' fdata_NK
+#'
+#' 10 source datasets
+#'
+#' @format A list object, each element is a source dataset.
+"fdata_NK"
