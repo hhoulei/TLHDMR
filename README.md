@@ -26,7 +26,7 @@
 `##################### remove invalid IV #############`  
 `fdata1j <- HDMR.PRESSO(fdata1,`  
 `                       Methodname='MCP',`  
-`                    cv.lambd)`  
+`                       cv.lambd)`  
 
 `fdata1j <- fdata1j$fdata2`  
 `fdata_NK1o <- list()`  
@@ -34,17 +34,17 @@
 `  cat('kpi=',kpi,'\n')`  
 `  onon <- HDMR.PRESSO(fdata_NK1[[kpi]],`  
 `                      Methodname='MCP',`  
-`                   cv.lambd)`  
+`                      cv.lambd)`  
 `  fdata_NK1o[[kpi]] <- onon$fdata2`  
 `}`  
 
 `##################### select informative source datasets #############`  
 
 `res.select <- HDMR.TSD(fdata1,`  
-`                          fdata_NK1o,`  
-`                          cv.lambd,`  
-`                          Methodname='MCP',`  
-`                          r.A0=3,C0=1.6)`  
+`                       fdata_NK1o,`  
+`                       cv.lambd,`  
+`                       Methodname='MCP',`  
+`                       r.A0=3,C0=1.6)`  
 
 `sel.NK<- res.select$Ind.loc`  
 `fdata_NK2o <- fdata_NK1o[sel.NK]`  
